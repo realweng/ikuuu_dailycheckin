@@ -6,11 +6,12 @@ on:
   workflow_dispatch:
 
 env:
-  RUN_ENV: 'test'
+  RUN_ENV: 'prod'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: prod
     # if: github.ref == 'refs/heads/master'
 
     steps:
