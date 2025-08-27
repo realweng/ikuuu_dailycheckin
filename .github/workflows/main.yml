@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  RUN_ENV: 'prod'
+  RUN_ENV: 'test'
 
 jobs:
   build:
