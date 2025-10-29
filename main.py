@@ -55,7 +55,7 @@ for email, passwd in zip(emails, passwords):
         print(result['msg'])
         content = result['msg']
         # 进行推送
-        push(content)
+        # push(content)
     except:
         content = '签到失败'
         print(content)
